@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+     <style>
+    body {
+    box-sizing: border-box;
+}
+.head>img{
+       height: 500px;
+        width: 500px;
+        object-fit: cover;
+        border: 10px solid orange;
+        border-radius: 50px;
+    }
+    .wholebody{
+          display: flex;
+        gap: 70px;
+        max-width: 1200px;
+        margin: 100px auto;
+    }
+    *{  
+       background-color: black;
+        color: white;
+        font-family: sans-serif;
+    }
+    .next {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .next>p{
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 0px;
+    }
+    a > button{
+        background-color: red;
+        border: 2px solid green;
+    }
+
+    h1 {
+        /* margin-bottom: 0; */
+        font-size: 2.5rem;
+    }
+
+     @media (max-width: 1200px) {
+        .wholebody {
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+            padding: 0px 20px;
+        }
+
+        .head>img {
+            height: 300px;
+            width: 300px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        p {
+            text-align: center;
+             max-width: 600px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+        }
+    }
+</style>
+<body>
+  <div class="wholebody">
+     <div class="head">
+     <img src="../images/joseph.jpeg"/>
+   </div>
+   <div class="next">
+    <h1>Joseph</h1>
+    <p>joseph was a dreamer and because of that his brother hated him and one day they decided to sell him into slavery. 
+    </p>
+    <p>after he was sold into slavery later he was sold to portipher and in portipher's house his master put him in charge of everything exept his wife,
+        one day portipher's wife wanted to sleep with him but he declined saying "how can i do this great sin aganst my master and God" and he ran but
+        while he was running his cloth tore and portipher's wife used it to lie against him and he was put in prison and later from there he was made ruler.
+    </p>
+    <div class="btn">
+        <a href="https://www.youtube.com/watch?v=Aqk-5gvyHCM&pp=ygUVam9zZXBoIGtpbmcgb2YgZHJlYW1z" target="_blank">
+            <button>
+                WATCH VIDEO
+            </button>
+        </a>
+    </div>
+   </div>
+  </div>
+</body>
+</html>

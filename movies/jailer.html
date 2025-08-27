@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    body {
+    box-sizing: border-box;
+}
+.head>img{
+       height: 500px;
+        width: 500px;
+        object-fit: cover;
+        border: 10px solid pink;
+        border-radius: 50px;
+    }
+    .wholebody{
+          display: flex;
+        gap: 70px;
+        max-width: 1200px;
+        margin: 100px auto;
+    }
+    *{  
+       background-color: black;
+        color: white;
+        font-family: sans-serif;
+    }
+    .next {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .next>p{
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 0px;
+    }
+    a > button{
+        background-color: red;
+        border: 2px solid green;
+    }
+
+    h1 {
+        /* margin-bottom: 0; */
+        font-size: 2.5rem;
+    }
+
+     @media (max-width: 1200px) {
+        .wholebody {
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+            padding: 0px 20px;
+        }
+
+        .head>img {
+            height: 300px;
+            width: 300px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        p {
+            text-align: center;
+             max-width: 600px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+        }
+    }
+</style>
+<body>
+  <div class="wholebody">
+     <div class="head">
+     <img src="../images/Jailer.jpeg"/>
+   </div>
+   <div class="next">
+    <h1>Jailer</h1>
+    <p>jailer is about a woman who wants to revenge for her father's death after they where robed while she was a child,
+        she loves her father so much that she won't want to leave her father's arms so she frequently follow him. as useual she followed him 
+        and they robed and her father was killed. 
+    </p>
+    <p>we should always be carefull in judging people,in the quest to revende she place the blame on an innocent driver who drove the armed robers
+        on that robbery
+    </p>
+    <div class="btn">
+        <a href="https://www.youtube.com/watch?v=a98Bg_kJnIE&pp=ygUGamFpbGVy0gcJCa0JAYcqIYzv" target="_blank">
+            <button>
+                WATCH VIDEO
+            </button>
+        </a>
+    </div>
+   </div>
+  </div>
+    
+</body>
+</html>

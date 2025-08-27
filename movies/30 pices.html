@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body {
+    box-sizing: border-box;
+}
+.head>img{
+       height: 500px;
+        width: 500px;
+        object-fit: cover;
+        border: 10px solid red;
+        border-radius: 50px;
+    }
+    .wholebody{
+          display: flex;
+        gap: 70px;
+        max-width: 1200px;
+        margin: 100px auto;
+    }
+    *{  
+       background-color: black;
+        color: white;
+        font-family: sans-serif;
+    }
+    .next {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .next>p{
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 0px;
+    }
+    a > button{
+        background-color: red;
+        border: 2px solid green;
+    }
+
+    h1 {
+        /* margin-bottom: 0; */
+        font-size: 2.5rem;
+    }
+
+     @media (max-width: 1200px) {
+        .wholebody {
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+            padding: 0px 20px;
+        }
+
+        .head>img {
+            height: 300px;
+            width: 300px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        p {
+            text-align: center;
+             max-width: 600px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+</style>
+<body>
+    <div class="wholebody">
+        <div class="head">
+             <img src="../images/30-pieces.jpeg"/>
+        </div>
+      <div class="next">
+        <h1>30 pieces</h1>
+        <p>It's not every time I get to capture a gospel movie in one word, but “30 Pieces” for me is simply BEAUTIFUL.
+            Everything about it - the story, acting, cinematography, music, resolution and editing - is just beautiful.
+           Another word that may be used to describe “30 Pieces” is EXEMPLARY.
+            Firstly, it's a case study on the art of Opening Scenes - how to make them catchy.
+            I almost shed a tear after seeing it because it was so well-executed.
+            <br/>
+            To crown it up "30 pieces" is a movie that must be watch by all believers,because it shows an example
+            of HONEST and HUMBLE person</p>
+            <div class="btn"> 
+                <a href="https://www.youtube.com/watch?v=JEXm0YN70MQ&pp=ygUaMzAgcGllY2VzIG1vdW50IHppb24gbW92aWU%3D" target="_blank">
+                    <button>
+                        WATCH VIDEO
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

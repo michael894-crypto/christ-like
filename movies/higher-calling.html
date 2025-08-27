@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ body {
+    box-sizing: border-box;
+}
+.head>img{
+       height: 500px;
+        width: 500px;
+        object-fit: cover;
+        border: 10px solid red;
+        border-radius: 50px;
+    }
+    .wholebody{
+          display: flex;
+        gap: 70px;
+        max-width: 1200px;
+        margin: 100px auto;
+    }
+    *{  
+       background-color: black;
+        color: white;
+        font-family: sans-serif;
+    }
+    .next {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .next>p{
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 0px;
+    }
+    a > button{
+        background-color: red;
+        border: 2px solid green;
+    }
+
+    h1 {
+        /* margin-bottom: 0; */
+        font-size: 2.5rem;
+    }
+
+     @media (max-width: 1200px) {
+        .wholebody {
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+            padding: 0px 20px;
+        }
+
+        .head>img {
+            height: 300px;
+            width: 300px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        p {
+            text-align: center;
+             max-width: 600px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+</style>
+<body>
+ <div class="wholebody">
+    <div class="head">
+     <img src="../images/Higher-calling.jpeg"/>
+   </div>
+   
+   <div class="next">
+     <p>
+      Higher calling is an interesting christian movie,
+      it's about a young man that God has a special calling and destiny for,but his dad
+      wanted him to travel abrode to further his education but the the young man didn't agree
+      and his father sent him out of the house but later they needed him and he was brouth home
+
+      the movie is so interesting i would advise that you watch the movie and learn not to wish
+       for earthly things like traveling outside the county,money,fame and others
+       but to stand for christ and follow the plans and purpose of God for your life and destiny 
+     </p>
+     
+     <div class="btn">
+       <a href="https://www.youtube.com/watch?v=0WbvpX8WUCU&pp=ygUOaGlnaGVyIGNhbGxpbmc%3D" target="_blank">
+         <button>
+           WATCH VIDEO
+          </button> 
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

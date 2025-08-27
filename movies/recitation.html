@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    box-sizing: border-box;
+}
+.head>img{
+       height: 500px;
+        width: 500px;
+        object-fit: cover;
+        border: 10px solid blue;
+        border-radius: 50px;
+    }
+    .wholebody{
+          display: flex;
+        gap: 70px;
+        max-width: 1200px;
+        margin: 100px auto;
+    }
+    *{  
+       background-color: black;
+        color: white;
+        font-family: sans-serif;
+    }
+    .next {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .next>p{
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 0px;
+    }
+    a > button{
+        background-color: red;
+        border: 2px solid green;
+    }
+
+    h1 {
+        /* margin-bottom: 0; */
+        font-size: 2.5rem;
+    }
+
+     @media (max-width: 1200px) {
+        .wholebody {
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+            padding: 0px 20px;
+        }
+
+        .head>img {
+            height: 300px;
+            width: 300px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        p {
+            text-align: center;
+             max-width: 600px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+        }
+    }
+</style>
+<body>
+  <div class="wholebody">
+     <div class="head">
+     <img src="../images/Recitation.jpeg"/>
+   </div>
+   <div class="next">
+    <h1>Recitation</h1>
+    <p>Recitation is about a boy that stamers but his teacher wants him to win a memory verse competition,
+        his father has given up on him but the teacher did not give up on him,so the boy kept on learning the bible verse
+        given to him by his teacher till the day of the competition his turn came and he read the memory verse fluently
+        and won the competition. 
+    </p>
+    <p>this movie shows a believing believer who did not give up on himselve even though his earthly father has given up on him
+        he knows that his heavenly father has not given up on him.
+        just believe and the lord will not give up on you even when others has given up,He will show up for you 
+    </p>
+    <div class="btn">
+        <a href="https://youtu.be/0FzSG3eyMnU" target="_blank">
+            <button>
+                WATCH VIDEO
+            </button>
+        </a>
+    </div>
+   </div>
+  </div>
+</body>
+</html>

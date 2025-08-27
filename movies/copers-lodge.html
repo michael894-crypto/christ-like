@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        box-sizing: border-box;
+    }
+
+
+    .head>img {
+        height: 500px;
+        width: 500px;
+        object-fit: cover;
+        border: 10px solid gold;
+        border-radius: 50px;
+    }
+
+    .wholebody {
+        display: flex;
+        gap: 70px;
+        max-width: 1200px;
+        margin: 100px auto;
+        /* padding: 100px 100px; */
+    }
+
+    * {
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    .next {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .next>p {
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 0px;
+    }
+
+    a>button {
+        background-color: red;
+        border: 2px solid green;
+    }
+
+    h1 {
+        /* margin-bottom: 0; */
+        font-size: 2.5rem;
+    }
+
+    @media (max-width: 1200px) {
+        .wholebody {
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+            padding: 0px 20px;
+        }
+
+        .head>img {
+            height: 300px;
+            width: 300px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        p {
+            text-align: center;
+             max-width: 600px;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+
+</style>
+
+<body>
+    <div class="wholebody">
+
+        <div class="head">
+            <img src="../images/Corpers' lodge.jpeg" />
+        </div>
+
+        <div class="next">
+            <h1>Corpers Lodge</h1>
+            <p>
+                Corper's lodge is a modern-day story about new corpers who have just been deployed to their places of
+                primary assignment.
+                Femi, a youth pastor who has gone rogue; and Emeka, his trusted sidekick and personal clown.
+                we also have the lodge's pastor, Clara.
+                And I definitely didn't forget, Daniel, a young man who fought to fulfil his calling even if that meant
+                letting go of his own plans.
+            </p>
+            <p>
+                The series was realistic and had me hooked from the very first episode.
+                We all know that content creation is the trendy profession in Nigeria right now.
+                While some people like Clara use it carefully and don't let the attention get to their heads,
+                we have other people like Amanda whose heads have literally blown up with pride.
+            </p>
+            <div class="btn">
+                <a href="https://www.youtube.com/watch?v=E-TwzNri6_ Y&list=PLImp6j-E09ad72T_pu08UmmAqjEtffrps"
+                    target="_blank">
+                    <button>
+                        WATCH VIDEO
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
